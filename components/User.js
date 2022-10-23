@@ -9,6 +9,7 @@ function User() {
           onClick={signOut}
           src={session.user.image}
           alt="user-image"
+          referrerPolicy="no-referrer"
           className="h-10 w-10 rounded-full hover:bg-gray-200 cursor-pointer p-1"
         />
       </>
